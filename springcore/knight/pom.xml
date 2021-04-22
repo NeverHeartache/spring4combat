@@ -11,6 +11,13 @@
 
     <artifactId>knight</artifactId>
 
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework</groupId>
@@ -21,5 +28,6 @@
             <artifactId>spring-test</artifactId>
         </dependency>
     </dependencies>
+
 
 </project>

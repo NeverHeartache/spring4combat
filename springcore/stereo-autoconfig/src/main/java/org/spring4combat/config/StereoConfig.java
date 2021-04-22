@@ -8,11 +8,4 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @ComponentScan("org.spring4combat.**")
 public class StereoConfig {
-    @Autowired
-    private CDPlayer cdPlayer;
-
-    public void play(){
-        cdPlayer.play();
-    }
-
 }
