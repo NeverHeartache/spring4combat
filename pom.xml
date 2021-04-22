@@ -13,8 +13,6 @@
     </modules>
 
     <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
         <spring.version>5.1.18.RELEASE</spring.version>
         <aspectj.version>1.9.2</aspectj.version>
     </properties>
@@ -39,8 +37,13 @@
             <dependency>
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
-                <version>4.11</version>
+                <version>4.13</version>
                 <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.github.stefanbirkner</groupId>
+                <artifactId>system-rules</artifactId>
+                <version>1.18.0</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
@@ -58,6 +61,10 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.github.stefanbirkner</groupId>
+            <artifactId>system-rules</artifactId>
         </dependency>
     </dependencies>
 
