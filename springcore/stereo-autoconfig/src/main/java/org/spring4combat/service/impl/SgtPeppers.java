@@ -17,6 +17,6 @@ public class SgtPeppers implements CompactDisc {
 
     @Override
     public void play() {
-        System.out.println("Playing " + title + "by " + artist);
+        System.out.println("Playing " + title + " by " + artist);
     }
 }
