@@ -8,10 +8,10 @@ public class SgtPepper implements CompactDisc {
     private String title = "Sgt. Pepper's Lonely Hearts Club Band";
     private String artist = "The Beatles";
 
-    @Bean
-    public SgtPepper getSgtPepper(){
-        return new SgtPepper();
-    }
+//    @Bean
+//    public SgtPepper getSgtPepper(){
+//        return new SgtPepper();
+//    }
 
     @Override
     public void play() {
