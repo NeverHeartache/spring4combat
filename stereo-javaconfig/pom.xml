@@ -9,23 +9,22 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>springcore</artifactId>
-    <packaging>pom</packaging>
-
-    <modules>
-        <module>knight</module>
-        <module>stereo-autoconfig</module>
-        <module>stereo-javaconfig</module>
-    </modules>
+    <artifactId>stereo-javaconfig</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+        </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -36,5 +35,6 @@
             <artifactId>system-rules</artifactId>
         </dependency>
     </dependencies>
+
 
 </project>
