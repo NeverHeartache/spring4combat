@@ -2,6 +2,7 @@ package org.spring4combat.service.impl;
 
 import org.spring4combat.service.CompactDisc;
 import org.spring4combat.service.MediaPlayer;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 
 public class CDPlayer implements MediaPlayer {
@@ -16,7 +17,7 @@ public class CDPlayer implements MediaPlayer {
 
     @Bean
     public CDPlayer getCDPlayer(CompactDisc compactDisc){
-        return new CDPlayer();
+        return new CDPlayer(compactDisc);
     }
 
 }

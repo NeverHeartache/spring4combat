@@ -31,6 +31,11 @@ public class CDPlayerTest {
     }
 
     @Test
+    public void cdPlayerNotNull(){
+        assertNotNull(cdPlayer);
+    }
+
+    @Test
     public void playCD(){
         cdPlayer.play();
         assertEquals(
