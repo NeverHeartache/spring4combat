@@ -12,6 +12,7 @@
         <module>knight</module>
         <module>stereo-autoconfig</module>
         <module>stereo-javaconfig</module>
+        <module>concurrencycombat</module>
     </modules>
 
     <properties>
