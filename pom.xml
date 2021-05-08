@@ -13,6 +13,7 @@
         <module>stereo-autoconfig</module>
         <module>stereo-javaconfig</module>
         <module>concurrencycombat</module>
+        <module>swingcombat</module>
     </modules>
 
     <properties>
