@@ -9,7 +9,16 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>knight</artifactId>
+    <artifactId>part-1</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>knight</module>
+        <module>stereo-autoconfig</module>
+        <module>stereo-javaconfig</module>
+        <module>concurrencycombat</module>
+        <module>swingcombat</module>
+
+    </modules>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>

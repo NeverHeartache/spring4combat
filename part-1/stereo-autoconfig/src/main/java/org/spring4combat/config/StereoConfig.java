@@ -1,7 +1,5 @@
 package org.spring4combat.config;
 
-import org.spring4combat.service.impl.CDPlayer;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
