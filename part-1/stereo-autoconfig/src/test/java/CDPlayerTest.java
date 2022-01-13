@@ -37,7 +37,7 @@ public class CDPlayerTest {
 
     @Test
     public void playCD(){
-        cdPlayer.play();
+        cdPlayer.playCDContent();
         assertEquals(
                 "Playing Sgt. Pepper's Lonely Hearts Club Band by The Beatles" + System.getProperty("line.separator"),
                 log.getLog());
@@ -49,6 +49,9 @@ cdShouldNotBeNull:
     这个测试结果就是：一片空白，因为断言cd不为null，所以条件满足；
     如果cd为null,则抛出AssertionError异常；
 playCD:
+SgtPeppers is created at 2022-01-13 10:39:10
+Playing Sgt. Pepper's Lonely Hearts Club Band by The Beatles
+
     这个例子本来是在断言后边之前用的是\n，执行断言失败，只是因为这个line separator不一致，所已用了这个语句；
     在java中存在一些转义字符,比如"\n"为换行符,但是也有一些JDK自带的一些操作符
     比如 : System.getProperty("line.separator")
