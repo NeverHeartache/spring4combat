@@ -8,6 +8,7 @@ import java.util.Date;
 
 @Component
 public class SgtPeppers implements CompactDisc {
+    //  Sgt.  sergeant 的缩写，中士
     private String title = "Sgt. Pepper's Lonely Hearts Club Band";
     private String artist = "The Beatles";
 
@@ -16,7 +17,7 @@ public class SgtPeppers implements CompactDisc {
     }
 
     @Override
-    public void play() {
+    public void returnContent() {
         System.out.println("Playing " + title + " by " + artist);
     }
 }
