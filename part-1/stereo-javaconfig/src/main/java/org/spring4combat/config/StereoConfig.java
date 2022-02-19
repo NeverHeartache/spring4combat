@@ -1,5 +1,6 @@
 package org.spring4combat.config;
 
+import org.spring4combat.JavaConfigMakerInterface;
 import org.spring4combat.service.impl.CDPlayer;
 import org.spring4combat.service.impl.SgtPepper;
 import org.springframework.context.annotation.Bean;
@@ -13,7 +14,8 @@ import org.springframework.context.annotation.Configuration;
  *
  */
 @Configuration
-@ComponentScan(basePackages = {"org.spring4combat.**"})
+//@ComponentScan(basePackages = {"org.spring4combat.**"})
+@ComponentScan(basePackageClasses = {JavaConfigMakerInterface.class})
 public class StereoConfig {
     @Bean(name = "sgtPepper")
     public SgtPepper getSgtPepper(){

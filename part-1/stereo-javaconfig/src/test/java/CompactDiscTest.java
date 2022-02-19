@@ -30,7 +30,7 @@ public class CompactDiscTest {
     @Test
     public void assetCDNotnull(){
         assertNotNull(compactDisc);
-        systemOutRule.enableLog();
+//        systemOutRule.enableLog();
     }
 
     @Test
